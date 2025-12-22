@@ -4,17 +4,142 @@
   <meta charset="utf-8" />
   <title>Network</title>
   <style>
-    html, body { margin: 0; height: 100%; }
-    #container { width: 100%; height: 100%; }
+    html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+
+    .app {
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 420px; /* rechts Panelbreite */
+    }
+
+    #container { height: 100%; background: #fff; }
+
+    .side {
+      height: 100%;
+      border-left: 1px solid #e6e6e6;
+      padding: 24px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0 0 10px 0;
+    }
+
+    .search {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 14px 14px;
+      font-size: 16px;
+      border-radius: 12px;
+      border: 2px solid #111;
+      outline: none;
+    }
+
+    .btnrow {
+      display: flex;
+      gap: 12px;
+      margin: 14px 0 10px 0;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border-radius: 12px;
+      border: 1px solid #d0d0d0;
+      background: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .legend {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin: 10px 0 8px 0;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      display: inline-block;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .dot.actor { background: #7a7a7a; }
+    .dot.movie { background: #2b7bbb; }
+
+    .desc {
+      margin: 8px 0 18px 0;
+      color: #666;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .panel {
+      border: 1px solid #ececec;
+      border-radius: 16px;
+      padding: 18px;
+      background: #fff;
+    }
+
+    .panel h2 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .panel p {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+      line-height: 1.4;
+    }
   </style>
 
+  <!-- Sigma v2 (UMD) -->
   <script src="https://cdn.jsdelivr.net/npm/sigma@2.4.0/build/sigma.min.js"></script>
+  <!-- Graphology (UMD) -->
   <script src="https://cdn.jsdelivr.net/npm/graphology@0.25.4/dist/graphology.umd.min.js"></script>
 </head>
 <body>
-  <div id="container"></div>
+  <div class="app">
+    <div id="container"></div>
 
-  <!-- WICHTIG: ohne type="module" -->
+    <aside class="side">
+      <div class="title">Suche</div>
+
+      <input class="search" type="text" placeholder="Actor oder Film suchen..." />
+
+      <div class="btnrow">
+        <button class="btn" type="button">Reset</button>
+        <button class="btn" type="button">Zentrieren</button>
+      </div>
+
+      <div class="legend">
+        <span><span class="dot actor"></span>Actor</span>
+        <span><span class="dot movie"></span>Movie</span>
+      </div>
+
+      <div class="desc">
+        Tippe einen Namen → Node + Nachbarn werden hervorgehoben<br>
+        Klick auf einen Node → Infos erscheinen im Sidepanel.<br>
+        Bei Movie-Nodes zeigt das Panel auch, wie viele Actors verbunden sind.
+      </div>
+
+      <div class="panel" id="sidepanel">
+        <h2>Kein Node ausgewählt</h2>
+        <p>Suche oder klicke im Netzwerk auf einen Actor oder Film.</p>
+      </div>
+    </aside>
+  </div>
+
   <script src="./main.js"></script>
 </body>
 </html>

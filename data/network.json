@@ -9,7 +9,6 @@
     {"id":"Parasite","label":"Parasite","type":"Movie","birthYear":null,"releaseYear":2019,"nationality":null,"gender":null},
     {"id":"Mickey17","label":"Mickey 17","type":"Movie","birthYear":null,"releaseYear":2025,"nationality":null,"gender":null},
 
-    {"id":"BongJoonho","label":"Bong Joon-ho","type":"Director","birthYear":1969,"releaseYear":null,"nationality":"South Korea","gender":"Male"},
 
     {"id":"SongKangho","label":"Song Kang-ho","type":"Actor","birthYear":1967,"releaseYear":null,"nationality":"South Korea","gender":"Male"},
     {"id":"ByunHeebong","label":"Byun Hee-bong","type":"Actor","birthYear":1942,"releaseYear":null,"nationality":"South Korea","gender":"Male"},
@@ -48,14 +47,6 @@
   ],
 
   "edges": [
-    {"source":"BarkingDogsNeverBite","target":"BongJoonho"},
-    {"source":"MemoriesofMurder","target":"BongJoonho"},
-    {"source":"TheHost","target":"BongJoonho"},
-    {"source":"Mother","target":"BongJoonho"},
-    {"source":"Snowpiercer","target":"BongJoonho"},
-    {"source":"Okja","target":"BongJoonho"},
-    {"source":"Parasite","target":"BongJoonho"},
-    {"source":"Mickey17","target":"BongJoonho"},
 
     {"source":"BarkingDogsNeverBite","target":"ParkInhwan"},
     {"source":"BarkingDogsNeverBite","target":"BaeYongJoon"},
