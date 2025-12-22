@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2025-12-22">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="type" title="type" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="BarkingDogsNeverBite" label="Barking Dogs Never Bite">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="11.904762"/>
+        <viz:position x="9.33992" y="53.592762"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="MemoriesofMurder" label="Memories of Murder">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="19.047619"/>
+        <viz:position x="-50.320877" y="5.6105356"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="TheHost" label="The Host">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-8.261276" y="-20.408792"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="Mother" label="Mother">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="13.809524"/>
+        <viz:position x="-24.006407" y="67.391975"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="Snowpiercer" label="Snowpiercer">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="11.428572"/>
+        <viz:position x="79.04177" y="-75.930824"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="Okja" label="Okja">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="14.285714"/>
+        <viz:position x="115.376076" y="-9.215974"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="Parasite" label="Parasite">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="12.380953"/>
+        <viz:position x="101.71408" y="14.815105"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="Mickey17" label="Mickey 17">
+        <attvalues>
+          <attvalue for="type" value="Movie"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="164.82095" y="-69.72589"/>
+        <viz:color r="232" g="100" b="93"/>
+      </node>
+      <node id="ByunHeebong" label="Byun Heebong">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.952381"/>
+        <viz:position x="27.204306" y="11.227468"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="KimRoiha" label="Kim Roiha">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="-13.431177" y="18.358444"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="SeongJeongseon" label="Seong Jeongseon">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-25.651127" y="47.39377"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="BaeDoona" label="Bae Doona">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="7.685118" y="22.535631"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="GoSoohee" label="Go Soohee">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="13.153009" y="31.391356"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="KimJingoo" label="Kim Jingoo">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-3.1721964" y="88.89744"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="KwonByunggil" label="Kwon Byunggil">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="-31.479471" y="28.419662"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="YuInsu" label="Yu Insu">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="-43.72961" y="32.587826"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="SongKangho" label="Song Kangho">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.952381"/>
+        <viz:position x="39.62267" y="-29.538708"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="LeeDongyong" label="Lee Dongyong">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="25.698065" y="-5.030713"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ChoiGyosik" label="Choi Gyosik">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-34.792217" y="-14.49326"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="JoDeokjae" label="Jo Deokjae">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-44.792618" y="-42.77747"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="KwonHyeokpoong" label="Kwon Hyeokpoong">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-56.36262" y="-19.768019"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="LeeJaeeung" label="Lee Jaeeung">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-67.85608" y="-14.248158"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ParkHae-il" label="Park Hae-il">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-57.15555" y="-36.574036"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ParkJinwoo" label="Park Jinwoo">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-47.487377" y="-31.275751"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ParkNoshik" label="Park Noshik">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-44.719288" y="-20.15734"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ShinHyunjong" label="Shin Hyunjong">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-33.099342" y="-41.005222"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="SonJinhwan" label="Son Jinhwan">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-35.316692" y="-29.381409"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="YooSeungmok" label="Yoo Seungmok">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-64.91726" y="-26.895182"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="JeonMiseon" label="Jeon Miseon">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-66.557556" y="48.481983"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="JoMooneui" label="Jo Mooneui">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-54.14894" y="53.19782"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="LeeDaehyeon" label="Lee Daehyeon">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-64.18759" y="60.04379"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="LeeOkjoo" label="Lee Okjoo">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-52.8121" y="64.8673"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="YoonJemoon" label="Yoon Jemoon">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="42.466003" y="21.918303"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="MinKyungjin" label="Min Kyungjin">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-12.458615" y="38.582054"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="GoAhsung" label="Go Ahsung">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="43.36434" y="-64.90847"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="PaulLazar" label="Paul Lazar">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="36.08564" y="-72.00747"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ParkJeonggi" label="Park Jeonggi">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="65.81688" y="-21.694153"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="LeeJungeun" label="Lee Jungeun">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.476191"/>
+        <viz:position x="74.71019" y="37.60285"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="TildaSwinton" label="Tilda Swinton">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="109.20856" y="-55.233795"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="StevePark" label="Steve Park">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="133.27858" y="-88.136505"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="AhnSeongbong" label="Ahn Seongbong">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="126.792114" y="21.87664"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ChoiWoosik" label="Choi Woosik">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="125.73895" y="10.322825"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="AndreasFronk" label="Andreas Fronk">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="135.85468" y="1.2278858"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="ParkKeunrok" label="Park Keunrok">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="137.0483" y="13.619834"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="DanielHenshall" label="Daniel Henshall">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="161.85811" y="-41.626102"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+      <node id="StevenYeun" label="Steven Yeun">
+        <attvalues>
+          <attvalue for="type" value="Actor"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="154.0856" y="-48.472164"/>
+        <viz:color r="141" g="117" b="212"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="ByunHeebong" target="BarkingDogsNeverBite"/>
+      <edge id="1" source="ByunHeebong" target="MemoriesofMurder"/>
+      <edge id="2" source="ByunHeebong" target="TheHost"/>
+      <edge id="3" source="ByunHeebong" target="Okja"/>
+      <edge id="4" source="KimRoiha" target="BarkingDogsNeverBite"/>
+      <edge id="5" source="KimRoiha" target="MemoriesofMurder"/>
+      <edge id="6" source="KimRoiha" target="TheHost"/>
+      <edge id="7" source="SeongJeongseon" target="BarkingDogsNeverBite"/>
+      <edge id="8" source="SeongJeongseon" target="MemoriesofMurder"/>
+      <edge id="9" source="BaeDoona" target="BarkingDogsNeverBite"/>
+      <edge id="10" source="BaeDoona" target="TheHost"/>
+      <edge id="11" source="GoSoohee" target="BarkingDogsNeverBite"/>
+      <edge id="12" source="GoSoohee" target="TheHost"/>
+      <edge id="13" source="KimJingoo" target="BarkingDogsNeverBite"/>
+      <edge id="14" source="KimJingoo" target="Mother"/>
+      <edge id="15" source="KwonByunggil" target="MemoriesofMurder"/>
+      <edge id="16" source="KwonByunggil" target="TheHost"/>
+      <edge id="17" source="KwonByunggil" target="Mother"/>
+      <edge id="18" source="YuInsu" target="MemoriesofMurder"/>
+      <edge id="19" source="YuInsu" target="TheHost"/>
+      <edge id="20" source="YuInsu" target="Mother"/>
+      <edge id="21" source="SongKangho" target="MemoriesofMurder"/>
+      <edge id="22" source="SongKangho" target="TheHost"/>
+      <edge id="23" source="SongKangho" target="Snowpiercer"/>
+      <edge id="24" source="SongKangho" target="Parasite"/>
+      <edge id="25" source="LeeDongyong" target="MemoriesofMurder"/>
+      <edge id="26" source="LeeDongyong" target="TheHost"/>
+      <edge id="27" source="LeeDongyong" target="Parasite"/>
+      <edge id="28" source="ChoiGyosik" target="MemoriesofMurder"/>
+      <edge id="29" source="ChoiGyosik" target="TheHost"/>
+      <edge id="30" source="JoDeokjae" target="MemoriesofMurder"/>
+      <edge id="31" source="JoDeokjae" target="TheHost"/>
+      <edge id="32" source="KwonHyeokpoong" target="MemoriesofMurder"/>
+      <edge id="33" source="KwonHyeokpoong" target="TheHost"/>
+      <edge id="34" source="LeeJaeeung" target="MemoriesofMurder"/>
+      <edge id="35" source="LeeJaeeung" target="TheHost"/>
+      <edge id="36" source="ParkHae-il" target="MemoriesofMurder"/>
+      <edge id="37" source="ParkHae-il" target="TheHost"/>
+      <edge id="38" source="ParkJinwoo" target="MemoriesofMurder"/>
+      <edge id="39" source="ParkJinwoo" target="TheHost"/>
+      <edge id="40" source="ParkNoshik" target="MemoriesofMurder"/>
+      <edge id="41" source="ParkNoshik" target="TheHost"/>
+      <edge id="42" source="ShinHyunjong" target="MemoriesofMurder"/>
+      <edge id="43" source="ShinHyunjong" target="TheHost"/>
+      <edge id="44" source="SonJinhwan" target="MemoriesofMurder"/>
+      <edge id="45" source="SonJinhwan" target="TheHost"/>
+      <edge id="46" source="YooSeungmok" target="MemoriesofMurder"/>
+      <edge id="47" source="YooSeungmok" target="TheHost"/>
+      <edge id="48" source="JeonMiseon" target="MemoriesofMurder"/>
+      <edge id="49" source="JeonMiseon" target="Mother"/>
+      <edge id="50" source="JoMooneui" target="MemoriesofMurder"/>
+      <edge id="51" source="JoMooneui" target="Mother"/>
+      <edge id="52" source="LeeDaehyeon" target="MemoriesofMurder"/>
+      <edge id="53" source="LeeDaehyeon" target="Mother"/>
+      <edge id="54" source="LeeOkjoo" target="MemoriesofMurder"/>
+      <edge id="55" source="LeeOkjoo" target="Mother"/>
+      <edge id="56" source="YoonJemoon" target="TheHost"/>
+      <edge id="57" source="YoonJemoon" target="Mother"/>
+      <edge id="58" source="YoonJemoon" target="Okja"/>
+      <edge id="59" source="MinKyungjin" target="TheHost"/>
+      <edge id="60" source="MinKyungjin" target="Mother"/>
+      <edge id="61" source="GoAhsung" target="TheHost"/>
+      <edge id="62" source="GoAhsung" target="Snowpiercer"/>
+      <edge id="63" source="PaulLazar" target="TheHost"/>
+      <edge id="64" source="PaulLazar" target="Snowpiercer"/>
+      <edge id="65" source="ParkJeonggi" target="TheHost"/>
+      <edge id="66" source="ParkJeonggi" target="Okja"/>
+      <edge id="67" source="LeeJungeun" target="Mother"/>
+      <edge id="68" source="LeeJungeun" target="Okja"/>
+      <edge id="69" source="LeeJungeun" target="Parasite"/>
+      <edge id="70" source="TildaSwinton" target="Snowpiercer"/>
+      <edge id="71" source="TildaSwinton" target="Okja"/>
+      <edge id="72" source="StevePark" target="Snowpiercer"/>
+      <edge id="73" source="StevePark" target="Mickey17"/>
+      <edge id="74" source="AhnSeongbong" target="Okja"/>
+      <edge id="75" source="AhnSeongbong" target="Parasite"/>
+      <edge id="76" source="ChoiWoosik" target="Okja"/>
+      <edge id="77" source="ChoiWoosik" target="Parasite"/>
+      <edge id="78" source="AndreasFronk" target="Okja"/>
+      <edge id="79" source="AndreasFronk" target="Parasite"/>
+      <edge id="80" source="ParkKeunrok" target="Okja"/>
+      <edge id="81" source="ParkKeunrok" target="Parasite"/>
+      <edge id="82" source="DanielHenshall" target="Okja"/>
+      <edge id="83" source="DanielHenshall" target="Mickey17"/>
+      <edge id="84" source="StevenYeun" target="Okja"/>
+      <edge id="85" source="StevenYeun" target="Mickey17"/>
+    </edges>
+  </graph>
+</gexf>
