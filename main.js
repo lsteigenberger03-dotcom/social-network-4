@@ -59,8 +59,8 @@
   // Hilfsfunktionen
   function setPanelEmpty() {
     sidepanel.innerHTML = `
-      <h2>Kein Node ausgewählt</h2>
-      <p>Suche oder klicke im Netzwerk auf einen Actor oder Film.</p>
+      <h2>No node selected</h2>
+      <p>Search or click on an actor or a movie in the network.</p>
     `;
   }
 
